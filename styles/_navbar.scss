@@ -52,6 +52,32 @@
             color: $dark;
             @extend %align-center;
             justify-content: center;
+            text-decoration: none;
+            padding: 0 1rem 0 1rem;
+
+            &:last-child{
+                padding: 0 0 0 1rem;
+            }
+
+            &:hover{
+                color: $lime;
+                transition: all 0.3s ease;
+            }
+        }
+
+        #button{
+            padding: 12px 24px;
+            border: none;
+            outline: none;
+            border-radius: 4px;
+            background: $lime;
+            margin-left: 16px;
+            color: $light;
+            transition: all 0.3s ease;
+
+            &:hover{
+                background: $dark;
+            }
         }
     }
 }

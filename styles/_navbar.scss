@@ -47,6 +47,12 @@
         @include tablet{
             display: none;
         }
+
+        &--links {
+            color: $dark;
+            @extend %align-center;
+            justify-content: center;
+        }
     }
 }
 
